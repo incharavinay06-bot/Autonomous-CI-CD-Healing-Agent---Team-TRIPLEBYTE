@@ -1,0 +1,43 @@
+{
+    "repo_url": "https://github.com/ShanKonduru/AutoVsSelfHealing",
+    "team": "RIFT ORGANIZERS",
+    "leader": "Saiyum Kumar",
+    "branch": "RIFT_ORGANIZERS_SAIYUM_KUMAR_AI_Fix",
+    "status": "PASSED",
+    "total_failures": 2,
+    "execution_time": "6.16s",
+    "score": 110,
+    "bugs": [
+        {
+            "file": "src/utils.py",
+            "type": "LINTING",
+            "line": 15,
+            "commit_message": "LINTING error in src/utils.py line 15 Fix: remove the import statement",
+            "status": "Fixed"
+        },
+        {
+            "file": "src/validator.py",
+            "type": "SYNTAX",
+            "line": 8,
+            "commit_message": "SYNTAX error in src/validator.py line 8 Fix: add the colon at the correct position",
+            "status": "Fixed"
+        }
+    ],
+    "timeline": [
+        {
+            "step": "Cloning repository",
+            "status": "\u2713",
+            "time": "Fri Feb 20 03:25:36 2026"
+        },
+        {
+            "step": "CI/CD Run 1/5",
+            "status": "PASSED",
+            "time": "Fri Feb 20 03:25:40 2026"
+        },
+        {
+            "step": "CI/CD Run 2/5",
+            "status": "PASSED",
+            "time": "Fri Feb 20 03:25:41 2026"
+        }
+    ]
+}
